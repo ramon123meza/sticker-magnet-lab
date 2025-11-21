@@ -1,0 +1,28 @@
+# Robots.txt for Sticker & Magnet Lab
+# https://stickersmagnetlab.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://stickersmagnetlab.com/sitemap.xml
+
+# Disallow admin and private paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /checkout
+Disallow: /cart
+Disallow: /thank-you
+Disallow: /order-confirmation
+
+# Allow search engines to crawl all public pages
+Allow: /
+Allow: /products
+Allow: /stickers
+Allow: /magnets
+Allow: /customize
+Allow: /about
+Allow: /contact
+
+# Crawl-delay (optional, some bots respect this)
+Crawl-delay: 1
